@@ -3,10 +3,10 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Todo from './component/todo'
 
 ReactDOM.render((
-    <div>
-        dsdsa
-    </div>
+   <Todo>
+
+   </Todo>
 ), document.getElementById("app"));
