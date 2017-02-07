@@ -14,6 +14,7 @@ export default class TodoHeader extends React.Component{
             if(!value) return false;
             let newTodoItem = {
                 text: value,
+                isChecked:false
             };
             e.target.value = '';
             this.props.addTodo(newTodoItem);   //使用props调用App组件传过来的方法。
